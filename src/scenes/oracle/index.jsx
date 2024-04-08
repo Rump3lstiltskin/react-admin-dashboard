@@ -55,7 +55,7 @@ const Oracle = () => {
   return (
     <Box m="20px">
       <Header
-        title="Oracle"
+        title="Oracle for Coatsink"
         subtitle="Table for displaying oracle data"
       />
       <Box

@@ -6,6 +6,7 @@ import Dashboard from "./scenes/dashboard";
 import Team from "./scenes/team";
 import Invoices from "./scenes/invoices";
 import Oracle from "./scenes/oracle";
+import Nav from "./scenes/nav";
 import Contacts from "./scenes/contacts";
 import Bar from "./scenes/bar";
 import Form from "./scenes/form";
@@ -31,6 +32,7 @@ function App() {
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
               <Route path="/" element={<Dashboard />} />
+              <Route path="/nav" element={<Nav />} />
               <Route path="/oracle" element={<Oracle />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
